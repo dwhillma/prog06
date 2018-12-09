@@ -66,6 +66,14 @@
 
             </tbody>
         </table>
+        <h3>Things Javascript and jQuery Do Differently</h3>
+        <ol>
+            <li>Javascript is a language (with a standard library and DOM API), whereas jQuery is a library built as a wrapper for Javascript.</li>
+            <li>jQuery uses the $ to replace Javascript's document.getElementById, reducing the amount of typing necessary for any code.</li>
+            <li>jQuery is able to select elements of the DOM with CSS selectors, for instance $("#p01") would select the element with ID "p01". Javascript would require a 
+                document.getElementById("p01") to achieve the same effect.</li>
+            <li>jQuery has built in animations such as slideDown() or slideUp(). Getting the same effects in Javascript would require a lot more work.</li>
+            <li>jQuery's framework has been designed to work well with all browsers, Javascript may or may not work in some browsers, depending on how it's written.</li>
     </div>
 
     <script>
